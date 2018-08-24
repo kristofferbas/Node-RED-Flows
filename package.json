@@ -2,7 +2,9 @@
     "name": "hassio-node-red",
     "description": "A Node-RED Project",
     "version": "0.0.1",
-    "dependencies": {},
+    "dependencies": {
+        "node-red-contrib-merge": "0.1.1"
+    },
     "node-red": {
         "settings": {
             "flowFile": "flows.json",
